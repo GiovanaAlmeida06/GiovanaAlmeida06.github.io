@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Contato</title>
+    <link rel="stylesheet" href="contato.css">
+    <link rel="icon" href="gio_logo.png">
+</head>
+<body>
+    <fieldset>
+        <h1>Entre em contato</h1>
+        <h3>Informe seus dados para conversarmos</h3>
+        <form name="frm_dados" method="POST" action="http://127.0.0.1:3500/formulario.html">
+            <label>Nome:</label>
+            <input type="text" name="txt_nome"><br>
+            <label>Email:</label>
+            <input type="text" name="txt_email"><br>
+            <label>Telefone:</label>
+            <input type="text" name="txt_telefone"><br>
+            <label>Deixe uma mensagem:</label>
+            <input type="text" name="txt_mensagem"><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+            <div id="voltar">
+                <h2><a href="index.html">Voltar</a></h2>
+            </div>
+        </form>
+    </fieldset>
+    <footer>
+        <p>
+            © 2024 Giovana Almeida.
+        </p>
+    </footer>
+</body>
+</html>
